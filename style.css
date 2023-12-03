@@ -6,7 +6,7 @@ body {
 }
 
 main {
-    width: 730px;
+    width: 50%;
     margin: 100px auto 50px;
     display: flex;
     align-items: center;
@@ -113,4 +113,21 @@ img{
     margin-top: 20px;
     cursor: pointer;
     color: black;
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+        margin: 20px auto;
+    }
+
+    button {
+        height: 60px;
+        width: 60px;
+        font-size: 24px;
+    }
+
+    .section2 {
+        width: 100%;
+        margin-top: 20px;
+    }
 }
