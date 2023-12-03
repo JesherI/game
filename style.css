@@ -1,0 +1,116 @@
+body {
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgb(252, 70, 70) 100%);
+    font-family: sans-serif;
+    color: white;
+}
+
+main {
+    width: 730px;
+    margin: 100px auto 50px;
+    display: flex;
+    align-items: center;
+}
+
+.section1 {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 0px 10px 10px 10px;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.section2{
+    background-color: rgba(255,255,255,0.2);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 250px;
+    height: 400px;
+    padding: 0 20px;
+}
+
+.estadisticas{
+    border: 1px solid white;
+    height: 105px;
+    border-radius: 8px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+}
+
+footer{
+    text-align: center;
+}
+
+img{
+    height: 80%;
+}
+
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1000;
+}
+
+#overlay-content {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#replay-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: black;
+}
+
+#lose-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1000;
+}
+
+#lose-overlay-content {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#retry-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: black;
+}
